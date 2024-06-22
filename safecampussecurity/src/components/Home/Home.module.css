@@ -1,0 +1,21 @@
+.topbar {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem 0;
+    gap: 1rem;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.logoImg {
+    width: 30px;
+}
+
+.name {
+    font-size: var(--h1-font-size);
+    font-weight: bolder;
+}
+
+.requestBox {
+    padding: 1rem;
+}

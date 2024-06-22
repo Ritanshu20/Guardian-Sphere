@@ -1,0 +1,115 @@
+.resource {
+    margin-bottom: 5rem;
+}
+
+.campaignContainer {
+    height: 50vh;
+    padding: 1rem;
+    /* background-image: url(../../assets/resource.jpg); */
+    /* background-image: linear-gradient(to bottom, #00A9FF, #CDF5FD); */
+    background-color: #00A9FF;
+    border-bottom: 2px solid #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: .5rem;
+}
+
+.heading {
+    font-size: var(--big-font-size);
+    font-weight: bolder;
+    color: white;
+}
+
+.subheading {
+    font-size: var(--small-font-size);
+    color: white;
+}
+
+.linkContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5rem;
+    border-radius: 5px;
+    padding: .5rem;
+    border: 1px solid #F2F2F2;
+    background: white;
+}
+
+.icon {
+    font-size: var(--h2-font-size);
+}
+
+.articleContainer {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+
+
+.categoryHeading {
+    font-size: var(--h1-font-size);
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    color: #00A9FF;
+}
+
+.categoryContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.category {
+    display: block;
+    padding: 10px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.newsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.news {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.newsText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: .5rem;
+}
+
+.newsHeading {
+    font-weight: bolder;
+}
+
+.newsSubHeading {
+    font-size: var(--small-font-size);
+    color: #ccc;
+}
+
+.newsImg {
+    width: 150px;
+}
+
+.buttonNews {
+    font-family: var(--body-font);
+    padding: .5rem;
+}

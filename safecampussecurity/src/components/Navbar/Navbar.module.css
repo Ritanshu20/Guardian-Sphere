@@ -1,0 +1,35 @@
+.Navbar {
+    position: fixed;
+    bottom: 0;
+    z-index: 20;
+    width: 100%;
+    background-color: #CDF5FD;
+    padding: .5rem 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navItem {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-semi-bold);
+    color: #00A9FF;
+}
+
+.title {
+    font-size: var(--small-font-size);
+    font-weight: bolder;
+    color: #00A9FF;
+}
